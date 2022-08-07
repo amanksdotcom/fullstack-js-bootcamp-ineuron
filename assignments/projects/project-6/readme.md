@@ -1,5 +1,7 @@
 # Project 4
 
+[Live Link](https://ineuron-assignment-6.netlify.app/)
+
 ![project thumbnail](6.png)
 
 ## Learnings
