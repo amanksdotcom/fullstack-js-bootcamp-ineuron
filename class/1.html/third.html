@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tables and forms</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- tables -->
+    <h2>Table</h2>
+    <table border>
+      <thead>
+        <th>head 1</th>
+        <th>head 2</th>
+        <th>Hello</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td rowspan="3">Hello</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- forms -->
+    <h2>Form</h2>
+    <form action="">
+      Name: <input type="text" name="name" /><br />
+      Email: <input type="email" name="email" /><br />
+      Password: <input type="password" name="password" /><br />
+
+      <h4>Gender</h4>
+      <label for="male">
+        Male <input type="radio" name="gender" id="male" /> </label
+      ><br />
+      <label for="female">
+        Female <input type="radio" name="gender" id="female" />
+      </label>
+      <label for="gender"></label>
+
+      <h4>Skills</h4>
+      <label for="reactjs">
+        ReactJS <input type="checkbox" name="skills" id="reactjs" /> </label
+      ><br />
+      <label for="vuejs">
+        VueJS <input type="checkbox" name="skills" id="vuejs" /> </label
+      ><br />
+      <label for="html">
+        HTML <input type="checkbox" name="skills" id="html" /> </label
+      ><br />
+      <label for="css">
+        CSS <input type="checkbox" name="skills" id="css" /> </label
+      ><br />
+    </form>
+  </body>
+</html>

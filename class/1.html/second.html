@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: rgb(45, 9, 80);
+        color: white;
+      }
+      a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Welcome to another HTML talk</p>
+
+    <!-- image -->
+    Simple image <img src="./Assets/image1.png" alt="ineuron logo" /><br />
+
+    <!-- image with attributes -->
+    Image with attributes
+    <img src="./Assets//lco.png" alt="LCO logo" width="100px" /><br />
+
+    <!-- clickable images -->
+    Click on logo to go to LCO
+    <a href="https://web.learncodeonline.in/" target="_blank">
+      <img src="./Assets/lco.png" alt="lco logo" width="100px" />
+    </a>
+    <!-- link attributes -->
+    <br /><a href="#">Link tag</a>
+    <!-- audio in a div -->
+    <div style="margin-top: 1rem">
+      <audio controls class="audio">
+        <source src="./Assets/sample-audio.mp3" type="audio/mp3" />
+      </audio>
+    </div>
+
+    <!-- video in a div -->
+    <div style="margin-top: 1rem">
+      <video controls width="400">
+        <source src="./Assets/sample-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!-- Video control -->
+
+    <!-- iframe -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/KV_igIl-zp0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <br />
+    <a href="third.html">go to third.html==></a>
+  </body>
+  <script>
+    let audio = document.querySelector(".audio");
+    audio.volume = 0.1;
+  </script>
+</html>
