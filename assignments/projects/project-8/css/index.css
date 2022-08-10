@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg: hsl(297deg 64% 84%);
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-div {
+  background: linear-gradient(65deg, transparent 50%, var(--bg) 50%);
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  font-size: larger;
+  color: hsl(233deg 42% 41%);
+  font-weight: bold;
+}
+
+img[alt="logo"] {
+  width: 10rem;
+}
+
+button {
+  padding: 0.5em 1.2em;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  color: white;
+  background: linear-gradient(
+    to right,
+    hsl(263deg 86% 66%),
+    hsl(318deg 100% 77%)
+  );
+}
+.learn-more-btn {
+  font-size: 2.4rem;
+}
+.intro-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section h1 {
+  font-weight: bold;
+  color: hsl(233deg 42% 41%);
+  font-size: 6rem;
+  margin-bottom: 5rem;
+}
+
+.left-section {
+  flex: 1;
+}
+.left-section h4 {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+  margin-bottom: 6rem;
+}
+
+.imgs-div img[alt="intro-img"] {
+  width: 70rem;
+}

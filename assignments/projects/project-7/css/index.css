@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Poppins;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navbar {
+  padding: 2rem 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.navbar .container .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.782);
+}
+
+h5.nav-item {
+  font-weight: 400;
+}
+
+.navbar .container .nav-items .active-item {
+  color: rgb(234, 98, 56);
+  font-weight: 700;
+}
+
+.intro-section .container {
+  display: flex;
+  padding: 4rem 0;
+}
+.left-section h3 {
+  font-size: 3rem;
+}
+.left-section h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.circles {
+  width: 4rem;
+}
+
+img[alt="plus"] {
+  background-color: rgb(234, 98, 56);
+  border-radius: 50%;
+  padding: 4px;
+  width: 1.6rem;
+}
+
+.sub-headlines {
+  margin-left: 5rem;
+}
+
+.sub-headline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+p.text {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.action-btn {
+  outline: none;
+  background: rgb(234, 98, 56);
+  color: white;
+  border: none;
+  padding: 1em 1.5em;
+  font-size: 1.6rem;
+  border-radius: 2em;
+}
+
+.action-btn + .action-btn {
+  margin-left: 2rem;
+}
+.headphone-div {
+  position: relative;
+}
+.discount,
+.discount-content {
+  position: absolute;
+}
+.discount {
+  bottom: 8rem;
+  left: -5rem;
+}
+.discount-content {
+  text-align: center;
+  bottom: 13rem;
+  left: -2rem;
+  color: white;
+}
+.discount-content h1 {
+  font-weight: 600;
+  font-size: 5.5rem;
+  margin: 0;
+  line-height: 1;
+}
+.discount-content h4 {
+  font-weight: 500;
+}
+.right-section {
+  text-align: center;
+}
