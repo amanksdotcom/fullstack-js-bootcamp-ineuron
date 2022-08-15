@@ -92,3 +92,18 @@ button {
 .imgs-div img[alt="intro-img"] {
   width: 70rem;
 }
+
+@media (max-width: 786px) {
+  .nav-items {
+    display: none;
+  }
+  .intro-section {
+    flex-direction: column-reverse;
+  }
+  .imgs-div {
+    width: 100%;
+  }
+  .imgs-div img[alt="intro-img"] {
+    width: 100%;
+  }
+}
