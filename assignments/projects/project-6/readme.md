@@ -1,4 +1,4 @@
-# Project 4
+# Project 6
 
 [Live Link](https://ineuron-assignment-6.netlify.app/)
 
