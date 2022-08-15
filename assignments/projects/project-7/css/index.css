@@ -137,3 +137,37 @@ p.text {
 .right-section {
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  .intro-section .container {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  .navbar .container .nav-items {
+    display: none;
+  }
+  .headphone {
+    width: 90%;
+  }
+  .discount {
+    left: 0;
+  }
+  .discount-content {
+    left: 3rem;
+  }
+  img[alt="actions"] {
+    width: 24rem;
+  }
+  .sub-headlines {
+    margin-left: 0;
+  }
+  .action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .action-btn + .action-btn {
+    margin: 0;
+  }
+}
