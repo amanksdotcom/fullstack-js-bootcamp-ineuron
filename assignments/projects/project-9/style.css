@@ -1,0 +1,275 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg: hsl(297deg 64% 84%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Roboto;
+  background-color: #f8f8fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.container {
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #4515fe;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: flex-end;
+  padding: 2rem 0;
+}
+
+.nav-item-active {
+  background-color: #fff;
+  color: #4515fe;
+  padding: 2px 1rem;
+  border-radius: 4px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.header-text h2 {
+  font-size: 4rem;
+}
+.hero-image {
+  width: 50%;
+}
+
+.header-image {
+  width: 50rem;
+}
+
+.companies a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+
+.api {
+  margin-top: 2rem;
+}
+.api h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-flow: wrap;
+  gap: 2rem;
+}
+
+.card {
+  padding: 4rem 2rem;
+}
+
+.card-active {
+  background-color: white;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px #0001;
+}
+
+.card-logo {
+  margin-bottom: 2rem;
+}
+
+.blog-heading h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.blog-cards {
+  display: flex;
+  margin-bottom: 5rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.blog-card {
+  display: flex;
+  position: relative;
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -16px;
+  right: 40%;
+}
+
+.blog-author {
+  position: absolute;
+  bottom: 10px;
+  right: 10%;
+  font-size: 12px;
+}
+.blog-content {
+  padding: 2.5rem 5rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.blog-content h6 {
+  color: #4515fe;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.blog-content h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.blog-content small {
+  display: block;
+}
+
+.faq-section {
+  display: flex;
+  background-color: #e9edff;
+  /* padding: 0 2rem; */
+  justify-content: space-between;
+}
+
+.faq-content {
+  padding: 5rem;
+}
+
+.faq-content h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.faq-content .para {
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.faq-content h4:not(.para) {
+  font-weight: 600;
+}
+
+.faq-content button {
+  background-color: #4515fe;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.download-section {
+  display: flex;
+  padding: 10rem 5%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.download-content h1 {
+  font-weight: bold;
+}
+.download-content h1 span {
+  font-weight: normal;
+}
+
+.download-email input {
+  width: 40rem;
+  padding: 1.5rem 3rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: #e9edff;
+}
+.download-email button {
+  background-color: #4515fe;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+}
+
+.footer-section {
+  background-color: #4515fe;
+  color: white;
+  padding: 10rem 0;
+}
+
+.footer-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left .list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-right .logos-list{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.footer-right .footer-right {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+@media (max-width: 1150px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding: 4rem 0;
+  }
+  .header-text,
+  .hero-image {
+    width: 100%;
+  }
+}
+
+@media(max-width: 768px) {
+  .footer-section .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
