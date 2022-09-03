@@ -75,6 +75,7 @@ nav {
 
 .header-image {
   width: 50rem;
+  max-width: 100%;
 }
 
 .companies a {
@@ -129,6 +130,7 @@ nav {
 .blog-card {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .blog-bottom {
@@ -218,6 +220,7 @@ nav {
   border-radius: 5rem;
   border: none;
   background-color: #e9edff;
+  max-width: 80%;
 }
 .download-email button {
   background-color: #4515fe;
@@ -271,5 +274,9 @@ nav {
   .footer-section .container {
     flex-direction: column;
     gap: 2rem;
+  }
+
+  .download-section {
+    flex-direction: column;
   }
 }
