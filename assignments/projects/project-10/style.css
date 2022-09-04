@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: url(./images/bg.jpg) no-repeat center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.819);
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+nav {
+  display: flex;
+  padding: 40px 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+.list {
+  padding-bottom: 20px;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.819);
+}
+.list-item {
+  display: flex;
+}
+
+.hero-section {
+  padding: 40px 130px;
+}
+.heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  width: 50%;
+}
+button {
+  padding: 18px 40px;
+  background-color: transparent;
+  border: 3px solid rgba(255, 255, 255, 0.819);
+  border-radius: 100px;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.819);
+  margin-top: 20px;
+}
+
+.bulb {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.305);
+  width: 15rem;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  top: 20%;
+  right: 5%;
+}
+.bulb img {
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+.puzzle {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.305);
+  width: 15rem;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  bottom: 20%;
+  right: 30%;
+}
+.puzzle img {
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+.line {
+  width: 140px;
+  height: 3px;
+  background-color: #fff;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #fff;
+}
+.line-bulb {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  transform: rotate(90deg);
+}
+.circle-bulb {
+  position: absolute;
+  top: 62%;
+  right: 9%;
+}
+
+.line-puzzle {
+  position: absolute;
+  bottom: 25%;
+  right: 21%;
+}
+.circle-puzzle {
+  position: absolute;
+  bottom: 24%;
+  right: 21%;
+}
+
+@media screen and (max-width: 1140px) {
+  .list {
+    display: none;
+  }
+  nav {
+    padding: 10px 10px;
+    justify-content: flex-start;
+  }
+  .hero-section {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .heading {
+    font-size: 2.5rem;
+    width: 90vw;
+  }
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .bulb {
+    position: relative;
+    left: 10px;
+
+    margin-top: 15px;
+  }
+  .puzzle {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+    margin-top: 15px;
+  }
+  .line {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+}

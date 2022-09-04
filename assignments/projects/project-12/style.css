@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.main-container {
+  height: 100vh;
+}
+.top {
+  background-color: #636c79;
+  padding: 40px 80px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.logo {
+  height: 40px;
+  width: 110px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  list-style: none;
+  padding-right: 40px;
+  color: #ffffff;
+}
+.lettalk {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #c5baba;
+  padding: 10px 40px;
+  font-family: "Raleway", sans-serif;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+}
+.top-content {
+  color: #ffffff;
+  width: 500px;
+}
+.top-content h1 {
+  font-size: 50px;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.top-content p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+}
+input {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 400px;
+  border: none;
+}
+.btn-submit {
+  padding: 10px;
+  width: 100px;
+  background-color: #8bb7a2;
+  border: none;
+  margin: 5px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+}
+.mid1 {
+  padding: 40px 130px;
+  text-align: center;
+}
+.mid1 h1 {
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 40px;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 40px;
+}
+.numbers h2 {
+  padding-bottom: 10px;
+}
+.numbers p {
+  color: #636c79;
+  font-weight: 400;
+}
+.mid1-img {
+  width: 100%;
+  max-width: 750px;
+}
+.mid2 {
+  padding: 40px 130px;
+}
+.mid2 h1 {
+  padding-bottom: 50px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 40px;
+  text-align: center;
+}
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.img {
+  width: 100%;
+  max-width: 300px;
+}
+.content {
+  width: 500px;
+}
+.content h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.content p {
+  font-size: 15px;
+  color: #636c79;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: #8bb7a2;
+  border: none;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+.mid3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 200px;
+}
+.mid3 h1 {
+  width: 350px;
+}
+
+.mid3 p {
+  width: 400px;
+  line-height: 25px;
+}
+.mid4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 200px;
+}
+.person {
+  height: 350px;
+  width: 250px;
+  padding-bottom: 10px;
+}
+.intro h4 {
+  padding-bottom: 10px;
+}
+.intro p {
+  color: #636c79;
+  width: 250px;
+  font-size: 15px;
+}
+.end-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.end {
+  padding: 13px 30px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  background-color: #8bb7a2;
+}
+
+.footer {
+  background-color: #10181d;
+  padding: 30px 120px;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.fab {
+  color: #ffffff;
+  padding-right: 20px;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #636c79;
+  margin-bottom: 40px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.bottom h3 {
+  padding-bottom: 20px;
+}
+.bottom-list-item {
+  list-style: none;
+  color: #636c79;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .hero-img {
+    width: 300px;
+    height: 300px;
+    padding-right: 40px;
+  }
+  .img {
+    display: none;
+  }
+  .top-content p {
+    font-size: 15px;
+  }
+  .top-content h1 {
+    font-size: 35px;
+  }
+  .list {
+    display: none;
+  }
+  .one {
+    margin-bottom: 20px;
+  }
+  .mid1,
+  .mid2 {
+    padding: 10px 20px;
+  }
+  .mid3 {
+    padding: 10px 80px;
+  }
+  .mid4 {
+    padding: 10px 100px;
+  }
+  .mid1-img {
+    width: 500px;
+  }
+  .mid1 h1,
+  .mid2 h1 {
+    padding: 50px;
+  }
+  .intro {
+    margin-bottom: 20px;
+  }
+  form {
+    width: 330px;
+  }
+  .blocks {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 120px;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .img,
+  .hero-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mid1-img {
+    display: none;
+  }
+  form {
+    width: 270px;
+  }
+  .blocks {
+    padding: 10px 50px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0px;
+  }
+  .mid1,
+  .mid2 {
+    padding: 10px 0px;
+  }
+  .mid3 {
+    padding: 10px 40px;
+  }
+  .mid4 {
+    padding: 10px 50px;
+  }
+  .media-icons {
+    display: none;
+  }
+  .mid1 h1,
+  .mid2 h1 {
+    padding: 20px;
+  }
+  .top-section {
+    padding: 10px 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    margin: auto;
+  }
+  .top-content {
+    padding: 0px;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  .content h2 {
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .person {
+    height: 200px;
+    width: 150px;
+  }
+  .intro p {
+    width: 130px;
+  }
+  .numbers {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
